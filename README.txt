@@ -24,3 +24,12 @@ creating language bindings for existing libraries.
 The existing libraries need not have been built with cmake, but
 they will need to be binary compatible with the toolset cmake
 uses to assemble the language binding.
+
+To build and test the example:
+
+----
+git clone ...
+mkdir build
+cd build
+cmake ../repo/
+PYTHONPATH=./python ../src/swig/python/example-driver.py
