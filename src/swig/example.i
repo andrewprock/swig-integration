@@ -1,5 +1,5 @@
 /* File: example.i */
-%module example
+%module pyexample
 
 %{
 #define SWIG_FILE_WITH_INIT

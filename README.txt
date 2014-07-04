@@ -2,6 +2,10 @@ This is a sample cmake project which illustrates adding python
 bindings to an existing cmake build without changing that build
 in any way.
 
+The project is based on the example presented in the swig
+documentation, but with an eye towards integrating into an
+existing project rather than building the project from scratch.
+
 There are three build scrips in the project:
 
 src/lib/CMakeLists.txt
