@@ -28,8 +28,11 @@ uses to assemble the language binding.
 To build and test the example:
 
 ----
-git clone ...
+git clone https://github.com/andrewprock/swig-integration.git
 mkdir build
 cd build
-cmake ../repo/
-PYTHONPATH=./python ../src/swig/python/example-driver.py
+cmake ../swig-integration
+make
+./src/main/example-driver
+PYTHONPATH=./python ../swig-integration/src/swig/python/example-driver.py
+----
